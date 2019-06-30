@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -69,7 +70,6 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
 .ipynb_checkpoints
 
 # pyenv
@@ -101,4 +101,31 @@ venv.bak/
 /site
 
 # mypy
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude data from source control by default
+/data/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+# Mypy cache
 .mypy_cache/
